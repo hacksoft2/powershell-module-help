@@ -4,19 +4,19 @@
   <SupportedUICultures>
     <UICulture>
       <UICultureName>en-GB</UICultureName>
-      <UICultureVersion>1.0.0.0</UICultureVersion>
+      <UICultureVersion>1.0.0.1</UICultureVersion>
     </UICulture>
     <UICulture>
       <UICultureName>en-US</UICultureName>
-      <UICultureVersion>1.0.0.0</UICultureVersion>
+      <UICultureVersion>1.0.0.1</UICultureVersion>
     </UICulture>
     <UICulture>
       <UICultureName>fr-CA</UICultureName>
-      <UICultureVersion>1.0.0.0</UICultureVersion>
+      <UICultureVersion>1.0.0.1</UICultureVersion>
     </UICulture>
     <UICulture>
       <UICultureName>fr-FR</UICultureName>
-      <UICultureVersion>1.0.0.0</UICultureVersion>
+      <UICultureVersion>1.0.0.1</UICultureVersion>
     </UICulture>
   </SupportedUICultures>
 </HelpInfo>
