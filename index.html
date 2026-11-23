@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hacksoft PowerShell module help</title>
+  <style>
+    body { max-width: 48rem; margin: 3rem auto; padding: 0 1rem; font: 1rem/1.6 system-ui, sans-serif; }
+    code, pre { font-family: ui-monospace, monospace; } pre { white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Hacksoft PowerShell module help</h1>
+  <p>Help for 64-bit Windows PowerShell 5.1, in English and French. The modules include local help at installation.</p>
+  <h2 id="gpuinfo">GPUInfo</h2>
+  <p>Inventory Windows graphics adapters, dedicated memory, drivers and codec reference data.</p>
+  <pre><code>Get-Help about_GPUInfo
+Get-Help GPUInfo\Get-GPU -Examples</code></pre>
+  <h2 id="hwinformation">HWInformation</h2>
+  <p>Collect a snapshot of the CPU, RAM and graphics adapters.</p>
+  <pre><code>Get-Help about_HWInformation
+Get-Help HWInformation\Get-HWInfo -Examples</code></pre>
+  <h2 id="videotools">VideoTools</h2>
+  <p>Inspect media streams, preview FFmpeg arguments and check capabilities.</p>
+  <pre><code>Get-Help about_VideoTools
+Get-Help VideoTools\New-VideoConversion -Examples</code></pre>
+  <h2>Update the help</h2>
+  <pre><code>Update-Help -Module GPUInfo,HWInformation,VideoTools -UICulture en-US,en-GB,fr-CA,fr-FR</code></pre>
+  <section lang="fr">
+    <h2>Aide en français</h2>
+    <p>L’aide installée couvre l’inventaire graphique et matériel, le sondage multimédia et la préparation d’arguments FFmpeg. Utilisez <code>Get-Help</code> pour la consulter.</p>
+    <pre><code>Update-Help -Module GPUInfo,HWInformation,VideoTools -UICulture fr-CA,fr-FR</code></pre>
+  </section>
+  <p><a href="LICENSE.txt">MIT License</a></p>
+</main>
+</body>
+</html>
